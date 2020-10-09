@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private SoundPool soundPool;
-    private int sound1, sound2, sound3, sound4, sound5, sound6;
+    private int sound1, sound2, sound3, sound4, sound5, sound6, sound7;
     private int sound3StreamId;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
