@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Animal Sounds</string>
+
+    <string name="linktosite">
+        <a href="https://www.facebook.com/EduSoundz">Developed by: EduSound</a>
+    </string>
+</resources>
