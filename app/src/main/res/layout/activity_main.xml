@@ -97,4 +97,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <ImageButton
+        android:id="@+id/voiceBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@null"
+        android:src="@drawable/ic_mic"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/textTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press mic button to input voice..."
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
