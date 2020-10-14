@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="responses">
-        <item>why are you sad</item>
-        <item>good thing you are happy</item>
-        <item>you are neutral</item>
-
-
-        <item>Good job!  You said Lion</item>
+        <item>Good job!  You said Cat!</item>
+        <item>Good job!  You said Cow!</item>
+        <item>Good job!  You said Dog!</item>
+        <item>Good job!  You said Goat!</item>
+        <item>Good job!  You said Horse!</item>
+        <item>Good job!  You said Lion!</item>
     </string-array>
 </resources>
