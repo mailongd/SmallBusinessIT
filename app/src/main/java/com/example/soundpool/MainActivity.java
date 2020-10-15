@@ -1,7 +1,6 @@
 package com.example.soundpool;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.media.AudioAttributes;
 import android.media.AudioManager;
