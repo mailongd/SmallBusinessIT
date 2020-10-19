@@ -2,15 +2,7 @@
     <string name="app_name">Animal Sounds</string>
 
     <string name="linktosite">
-        <a href="https://www.facebook.com/EduSoundz">Developed by: EduSound</a>
-    </string>
-
-    <string name="website">
-        <a href="https://edusoundz.wordpress.com/contact/">Website</a>
-    </string>
-
-    <string name="Twitter">
-        <a href="https://twitter.com/EduSound1">Twitter</a>
+        <a href="https://edusoundz.wordpress.com/">Developed by: EduSound</a>
     </string>
 
 </resources>

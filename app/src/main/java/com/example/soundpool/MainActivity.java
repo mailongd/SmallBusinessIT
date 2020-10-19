@@ -21,6 +21,7 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
     private SoundPool soundPool;
     private int sound1, sound2, sound3, sound4, sound5, sound6;
+    private int soundStream1, soundStream2, soundStream3, soundStream4, soundStream5, soundStream6;
 
     private static final int REQUEST_CODE_SPEECH_INPUT = 1000;
     //views from activity
@@ -122,22 +123,52 @@ public class MainActivity extends AppCompatActivity {
     public void playSound(View v) {
         switch (v.getId()) {
             case R.id.button_sound1:
-                soundPool.play(sound1, 1, 1, 0, 0, 1);
+                soundStream1= soundPool.play(sound1, 1, 1, 0, 0, 1);
+                soundPool.pause(soundStream2);
+                soundPool.pause(soundStream3);
+                soundPool.pause(soundStream4);
+                soundPool.pause(soundStream5);
+                soundPool.pause(soundStream6);
                 break;
            case R.id.button_sound2:
-                soundPool.play(sound2, 1, 1, 0, 0, 1);
+               soundStream2 = soundPool.play(sound2, 1, 1, 0, 0, 1);
+               soundPool.pause(soundStream1);
+               soundPool.pause(soundStream3);
+               soundPool.pause(soundStream4);
+               soundPool.pause(soundStream5);
+               soundPool.pause(soundStream6);
                 break;
             case R.id.button_sound3:
-                soundPool.play(sound3, 1, 1, 0, 0, 1);
+                soundStream3 = soundPool.play(sound3, 1, 1, 0, 0, 1);
+                soundPool.pause(soundStream2);
+                soundPool.pause(soundStream1);
+                soundPool.pause(soundStream4);
+                soundPool.pause(soundStream5);
+                soundPool.pause(soundStream6);
                 break;
             case R.id.button_sound4:
-                soundPool.play(sound4, 1, 1, 0, 0, 1);
+                soundStream4 = soundPool.play(sound4, 1, 1, 0, 0, 1);
+                soundPool.pause(soundStream2);
+                soundPool.pause(soundStream3);
+                soundPool.pause(soundStream1);
+                soundPool.pause(soundStream5);
+                soundPool.pause(soundStream6);
                 break;
             case R.id.button_sound5:
-                soundPool.play(sound5, 1, 1, 0, 0, 1);
+                soundStream5 = soundPool.play(sound5, 1, 1, 0, 0, 1);
+                soundPool.pause(soundStream2);
+                soundPool.pause(soundStream3);
+                soundPool.pause(soundStream4);
+                soundPool.pause(soundStream1);
+                soundPool.pause(soundStream6);
                 break;
             case R.id.button_sound6:
-                soundPool.play(sound6, 1, 1, 0, 0, 1);
+                soundStream6 = soundPool.play(sound6, 1, 1, 0, 0, 1);
+                soundPool.pause(soundStream2);
+                soundPool.pause(soundStream3);
+                soundPool.pause(soundStream4);
+                soundPool.pause(soundStream5);
+                soundPool.pause(soundStream1);
                 break;
         }
     }
